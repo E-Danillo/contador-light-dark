@@ -1,11 +1,10 @@
-import Ola from './Ola.jsx'
-import Sobre from './Sobre.jsx'
+import Contador from './Contador.jsx'
+import './style.css'
 
 function App() {
     return (
         <>
-            <Ola />
-            <Sobre />
+            <Contador />
         </>
     )
 }

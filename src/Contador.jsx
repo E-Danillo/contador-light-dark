@@ -4,11 +4,17 @@ function Contador() {
     const [valor, setValor] = useState(0)
 
     function aumentar() {
-        setValor(valor + 1)
+        setValor(prev => {
+            if (prev >= 999) {
+                window.alert("Valor máximo alcançado!");
+                return 998;
+            }
+            return prev + 1;
+        });
     }
 
     function diminuir() {
-        setValor(valor <= 0? 0 : valor - 1)
+        setValor(prev => (prev <= 0 ? 0 : prev - 1));
     }
 
     return (

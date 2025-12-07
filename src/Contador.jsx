@@ -14,7 +14,7 @@ function Contador() {
     return (
         <div>
             <h1>Contador: {valor}</h1>
-            <div id="botoes">
+            <div id="botoes-do-contador">
                 <button onClick={aumentar}>+</button>
                 <button onClick={diminuir}>-</button>
             </div>

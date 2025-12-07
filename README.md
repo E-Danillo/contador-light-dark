@@ -17,6 +17,7 @@ O objetivo é entender como a interface reage às mudanças de estado de forma c
 - Incrementar valor  
 - Decrementar valor  
 - Resetar para zero ( em desenvolvimento ) 
+- Modo light e dark
 - Interface simples e intuitiva  
 
 ---

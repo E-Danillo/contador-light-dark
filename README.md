@@ -38,3 +38,5 @@ O objetivo é entender como a interface reage às mudanças de estado de forma c
 4. Rode o projeto:
     ```bash
    npm start
+OU
+   Acesse: https://e-danillo.github.io/contador-light-dark/

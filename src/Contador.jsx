@@ -17,12 +17,17 @@ function Contador() {
         setValor(prev => (prev <= 0 ? 0 : prev - 1));
     }
 
+    function reset() {
+        setValor(0)
+    }
+
     return (
         <div>
-            <h1>Contador: {valor}</h1>
+            <h1>Contador: <span>{valor}</span></h1>
             <div id="botoes-do-contador">
                 <button onClick={aumentar}>+</button>
                 <button onClick={diminuir}>-</button>
+                <button onClick={reset}>Resetar</button>
             </div>
         </div>
     )
